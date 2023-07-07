@@ -698,7 +698,9 @@ max-width: 1440px;
 .svg-modal:focus {
     fill: #ffffff
 }
-
+.name-container {
+    margin-bottom: 8px;
+}
 .modal-caption {
     display: block;
     padding-top: 24px;
