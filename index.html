@@ -398,6 +398,7 @@
             </div>
         </div>
     </footer>
+    <!-- Modal window -->
     <div data-modal class="modal is-hidden">
         <div class="modal-window">
             <button data-modal-close type="button" class="button-modal">
@@ -405,6 +406,25 @@
                     <use href="./images/icons.svg#close-black"></use>
                 </svg>
             </button>
+        
+            <strong class="modal-caption">
+                Leave your contacts and we will call you back
+            </strong>
+            <form class="modal-form">
+                <label class="modal-form-field" for="user_name">
+                    <span class="modal-form-lable">Name</span>
+                    <input class="modal-form-input" type="text" name="user_name"/>       
+                </label>
+                <label class="modal-form-field" for="user_phone">
+                    <span class="modal-form-lable">Phone</span>
+                    <input class="modal-form-input" type="tel" name="user_phone"/>  
+                </label> 
+                <label class="modal-form-field" for="user_email">
+                    <span class="modal-form-lable">Email</span>
+                    <input class="modal-form-input" type="email" name="user_email"/>  
+                </label>  
+                <button type="submit">Send</button>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
