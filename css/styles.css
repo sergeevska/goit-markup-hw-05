@@ -501,6 +501,14 @@ max-width: 1440px;
     fill: #f4f4fd ;
 }
 
+.footer-subscribe {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-bg-color);
+margin-bottom: 16px; 
+}
 
 /* Portfolio styles */
 .nav-list:hover{
@@ -822,4 +830,5 @@ max-width: 1440px;
 }
 .link-privat {
     color:#4d5ae5;
+    text-decoration: underline;
 }
