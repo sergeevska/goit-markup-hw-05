@@ -750,7 +750,13 @@ max-width: 1440px;
     border-radius: 4px;
 }
 
-.comment-container
+.comment-container {
+    margin-bottom: 16px
+
+}
+.modal-form-comment {
+
+}
 
 
 
