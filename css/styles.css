@@ -508,10 +508,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-bg-color);
 margin-bottom: 16px; 
+padding-left: 80px;
 }
 .form-footer {
     display: flex;
     gap: 24px;
+    padding-left: 80px;
 }
 .footer-input {
     width: 264px;
