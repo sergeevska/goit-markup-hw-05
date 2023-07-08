@@ -772,7 +772,9 @@ max-width: 1440px;
 .modal-form-comment:focus {
     border-color: #4D5AE5;
 }
-
-
+.container-chekbox {
+    margin-bottom: 24px; 
+    
+}
 
 
